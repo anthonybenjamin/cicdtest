@@ -33,7 +33,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          local-dir: /www/
+          local-dir: www/
           server: farmingtoncounselingcenter.com #${{ secrets.LARAVEL_SITE_SERVER}}
           username: anthony@farmingtoncounselingcenter.com #${{ secrets.LARAVEL_SITE_USER}}
           password: 7thundershail7 #${{ secrets.LARAVEL_SITE_PASS}}
